@@ -59,3 +59,28 @@ main .b{
     flex-direction: row-reverse;
     align-items: center
 }
+
+.titresorties{
+    text-decoration: underline;
+    padding: 1%;
+    width: 29%;
+    margin-left: 3%;
+    background-color: #e5e5e5;
+    border-top: 15px solid rgb(255, 175, 76);
+    border-left: 15px solid rgb(255, 175, 76);
+}
+.ziksorties{
+    display: flex;
+    justify-content: space-around;
+}
+.ziksorties div{
+    text-align: center;
+    padding: 10px;
+}
+.ziksorties p{
+    font-weight: bold;
+    background-image: linear-gradient( to right , burlywood 0%, blanchedalmond 100%);
+}
+.ziksorties img{
+    padding: 1%;
+}
