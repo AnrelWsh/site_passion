@@ -84,3 +84,43 @@ main .b{
 .ziksorties img{
     padding: 1%;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 175, 76);
+    padding: 10px;
+    border-top: 3px solid rgb(153, 84, 0);
+}
+.footer img{
+    width: 6%;
+}
+ul{
+    list-style-type: none;
+    list-style-type: disclosure-closed;
+}
+li{
+    text-decoration: none;
+}
+.mesprods{
+    background-color: rgba(255, 228, 196, 0.471);
+    border: 2px outset black;
+    padding: 1%;
+    width: 12%;
+}  
+.mecontacter{
+    background-color: rgba(255, 228, 196, 0.471);
+    border: 2px outset black;
+    padding: 1%; 
+    width: 10%;
+}
+ul a{
+    color: #1e1e1e;
+    text-decoration : none;
+}
+ul a:hover{
+    background-color: #9f9595;
+    color: black;
+    font-style: italic;
+}
