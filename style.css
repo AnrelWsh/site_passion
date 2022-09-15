@@ -12,6 +12,7 @@
 }
 h1{
     font-size: 100px;
+    user-select: none;
 }
 .up img{
     width: 10%;
@@ -123,4 +124,18 @@ ul a:hover{
     background-color: #9f9595;
     color: black;
     font-style: italic;
+}
+
+.maincontact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maincontact h2{
+    font-size: 70px;
+}
+
+.maincontact img{
+    width: 30%;
 }
