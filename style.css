@@ -189,3 +189,91 @@ ul a:hover{
     background-color: #be4a4a85;
     color: rgb(161, 151, 190);
 }
+
+.titreplk{
+    padding: 2%;
+    text-align: center;
+    background-color: #cbcbcb;
+    text-decoration: underline;
+}
+.descplk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: #e5e5e5;
+}
+.descplk img{
+    width: 30%;
+    border: 4px solid black;
+}
+.descplk p{
+    background-color: blanchedalmond;
+    width: 50%;    
+    border: 2px solid black;
+    line-height: 150%;
+}
+.zikpref{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+.zikpref .topzikpref{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+}
+.zikpref img{
+    width: 19%;
+    border: 4px solid black;
+}
+.zikpref p{
+    font-size: 14px;
+}
+.zikpref .pkzikpref{
+    width: 95%;
+    padding: 2%;
+}
+.titrezikpref{
+    text-decoration: underline;
+}
+.newest{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: burlywood;
+    border: 2px solid black;
+
+}
+.newest .topnewest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newest .topnewest h3{
+    padding: 2%;
+    text-decoration: underline;
+}
+.newest img{
+    width: 19%;
+    border: 4px solid black;
+}
+.newest .descnewest{
+    padding: 2%;
+    width: 95%;
+}
+.newest p{
+    font-size: 14px;
+}
+.divbas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding-bottom: 4%;
+}  
