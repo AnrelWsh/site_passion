@@ -178,6 +178,9 @@ ul a:hover{
 .artistes img{
     width: 40%;
 }
+.fotopop img{
+    width: 20%;
+}
 .artistes a{
     color: #1e1e1e;
     text-decoration : none;
