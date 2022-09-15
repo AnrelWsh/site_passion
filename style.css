@@ -139,3 +139,50 @@ ul a:hover{
 .maincontact img{
     width: 30%;
 }
+
+.defrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    padding: 1% 20% 1% 10%;
+    width: 70%;
+} 
+.defrap h2{
+    padding: 0;
+    background-color: rgba(245, 245, 220, 0);
+}
+.quest{
+    color: whitesmoke;
+    background-image: linear-gradient(to right, #0e0d0d 0%, #4da8f300 70%);
+    width: 15%;
+}
+
+.rep{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+.titrartistes{
+    padding: 1% 2%;
+    text-decoration: underline black;
+    background-color: #e5e5e5;
+}
+.artistes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #e5e5e5;
+}
+.artistes img{
+    width: 40%;
+}
+.artistes a{
+    color: #1e1e1e;
+    text-decoration : none;
+}
+.artistes a:hover{
+    background-color: #be4a4a85;
+    color: rgb(161, 151, 190);
+}
